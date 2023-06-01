@@ -31,7 +31,7 @@ header img{
     margin: 10px;
     color: goldenrod;
 }
-.card{
+.card{background-color: transparent;
     margin-left: 272px;
     margin-top: 80px;
     
@@ -45,7 +45,8 @@ header img{
 .card-text{
     visibility: visible;
     font-size: 20px;
-    color: white;
+    color: whitesmoke;
+    
 }
 .ver-mas{
     visibility: visible;
@@ -80,10 +81,11 @@ header img{
 .grupo-tarjetas{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 .tarjeta{
     background-color: #333533;
-    padding: 14px;
+    padding: 4px;
     margin: 7px;
     text-align: center;
 
@@ -96,13 +98,13 @@ header img{
 
 /* ACA EMPIEZA GRID */
 
-.Variedades-Exclusivas{
+/* .Variedades-Exclusivas{
     color: white;
     margin-top: 70px;
     
 }
 #grid-gap {
-    margin-right: 50px;
+    
     width: 100%;
     display: grid;
     grid-gap: 10px;
@@ -117,9 +119,7 @@ header img{
     display: flex;
     grid-gap: 10px;
     grid-area: caja1;
-    
-
-   
+ 
 }
 .caja2 {
     display: flex;
@@ -135,6 +135,7 @@ header img{
     
     
     
+    
 }
 .descripcion{
     background-color: rgb(8, 8, 8);
@@ -142,7 +143,8 @@ header img{
     text-align: center;
     color: wheat;
     margin: 0;
-}
+} */
+
 
 
 /* BANNER CONTAINER-FLUID */
@@ -196,20 +198,23 @@ header img{
 
 
 /* NOSOTROS */
+.nosotros{
+    margin-top:80px;
+    color: whitesmoke
+}
+
 .patricio{
     background-color: #333533;
     margin: 1px 0px 0px 5px;
     
 
 }
+
 .patricio-img{
     margin: 7px;
    
 }
-.nosotros{
-    margin-top:80px;
-    color: whitesmoke
-}
+
 .sobre-nosotros{
     display: flex;
     margin-top: 20px;
@@ -223,18 +228,22 @@ header img{
     color: wheat;
     align-items: center;
 }
+
 .tarjeta-texto{
     margin: 7px; 
 }
 
 /* CONTACTO */
+
 .seccion-formulario{
     background-color: #333533;
+    
 }
 .contacto{
-    margin-top: 70px;
+    margin-top: 90px;
     display: flex;
     justify-content: space-between;
+    
 
 }
 .contactanos{
@@ -244,10 +253,8 @@ header img{
 .form{
     display: flex;
     flex-direction: column;
-    margin-right: 190px;
-    
-    
-    
+
+
     
 }
 .form input{
@@ -308,63 +315,145 @@ footer li{
 
 
 @media (max-width: 576px){
+    /* HEADER */
+
     header{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        width: 100%;
     }
+    .titulo{
+        margin-left: 17px;
+    }
+    
     .card{
        visibility: hidden;
-       
-        
+       margin: 0;
+         
     }
-    .card-titulo{
-       visibility: hidden;
-        
+    /* GRUPO PRIMERAS TARJETAS */
+
+    .Lo-mas-vendido{
+        color: white;
+        margin-top: 290px;
+        text-align: center;
     }
-    .card-text{
-        visibility: hidden;
-    }
-    .ver-mas{
-        visibility: hidden;
-    }
-
-
-
-
+    
     .grupo-tarjetas{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 20px;
+        margin: 0px;
     }
-    .Lo-mas-vendido{
-        color: white;
-        margin-top: 190px;
-        text-align: center;
+    .tarjeta{
+        margin: 4px 0px 0px 0px;
     }
-    
-    /* ACA COMIENZA EL GRID */
-    .Variedades-Exclusivas{
-        text-align: center;
+    .tarjeta img{
+        padding: 10px 0px 0px 0px;
     }
-    #grid-gap{
-        margin-left: 74px;
-        margin-bottom: 340px;
-        margin-left: 50px;
-    }
-    .caja1 {
-        display: flex;
-        grid-gap: 10px;
-        grid-area: caja1;
+   
+  
+
+    /* NOSOTROS */
+    .sobre-nosotros{
         flex-direction: column;
         align-items: center;
-        background-color: #333533;
-        padding: 5px;
-        margin: 2px 0px 0px 0px; 
+
     }
-    .primera-imagen{
-        margin: 2px 0px 0px 0px;
+    .nosotros{
+        text-align: center;
     }
+    .patricio{
+       padding: 0;
+       margin: 10px 0px 0px 0px;
+        
+    }
+
+    .tarjeta-biografica{
+        flex-direction: column;
+    }
+
+
+
+    /* BANNER CONTAINER FLUID */
+    .cubo{
+        width: 100%;
+        height: auto;
+    }
+    .lo-mejor-de-los-vinos-patagonicos{
+        position: absolute;
+        width: 100%;
+        margin-left: -460px;
+        flex-direction: column;
+        text-align:left;
+        color: wheat;
+        filter: brightness(9);
+    }
+    .conocenos a{
+        padding: 0;
+        margin-left: -400px;
+    }
+
+     /* PAGINA CONTACTO */
+     .contacto{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .imagen-contacto{
+        margin: 10px 0px 0px 0px;
+    }
+    
+    .form{
+          margin: 20px 0px 0px 0px;
+
+
+    }
+
+    /* FOOTER */
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 60vh;
+        margin-top:15px;
+        width: 100%;
+        
+    }
+    
+    .segui-navegando{
+      margin-bottom: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+    /* ACA COMIENZA EL GRID */
+    /* .Variedades-Exclusivas{
+        text-align: center;
+    }
+
+
+    .caja1 {
+        display: flex;
+        grid-area: caja1;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+    }
+    
     .caja2{
         flex-direction: column;
         align-items: center;
@@ -374,59 +463,21 @@ footer li{
         padding: 10px;
     }
     .segunda-imagen{
-        background-color: #333533;
-    }
-    .caja3{
         visibility: hidden;
     }
     
-    
-    /* NOSOTROS */
-    .sobre-nosotros{
-        flex-direction: column;
-        width: 100px;
+    .caja3{
+        visibility: hidden;
     }
-    .patricio{
-        padding: 10px;
-        margin-right: -20px;
-        
-    }
-
-    .tarjeta-biografica{
-        flex-direction: column;
-    }
-
-
-    /* PAGINA CONTACTO */
-    .contacto{
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .form{
-          margin: 20px 0px 0px 0px;
-
-
-    }
-
+    .descripcion{
+        background-color: none;
+        margin: 0;
+        text-align: center;
+    } */ 
 
 
 
     
-    footer{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        height: 60vh;
-        margin-top:15px;
-        
-    }
-    
-    .segui-navegando{
-      margin-bottom: 22px;
-    }
-}
-
 
 
 
