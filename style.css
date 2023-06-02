@@ -40,14 +40,12 @@ header img{
     visibility: visible;
     font-size: 30px;
     color: goldenrod;
-    margin: 0;
     
 }
 .card-text{
     visibility: visible;
     font-size: 20px;
     color: whitesmoke;
-    margin: 0;
     
 }
 .ver-mas{
@@ -67,12 +65,10 @@ header img{
 
 .container{ 
     padding: 0;
-    margin: 0;
     
 }
 .container-fluid{
     padding: 0;
-    margin: 0;
 }
 
 
@@ -162,9 +158,8 @@ header img{
 }
 .lo-mejor-de-los-vinos-patagonicos{
     position: absolute;
-    visibility: visible;
     top: 200px;
-    margin: 0;
+    left: 550px;
     font-size: 22px;
    
     color: wheat;
@@ -172,19 +167,18 @@ header img{
 }
 .conocenos{
     position: absolute;
-    visibility: hidden;
     top: 250px;
-    margin: 0;
+    left: 620px;
     font-size: 22px;
     
     
 }
-.conocenos a{
+/* .conocenos a{
     text-decoration: none;
     border: solid 1px;
     padding: 1px 60px 2px;
     color: goldenrod;   
-}
+} */
 
 
 /* NUESTRA ESPECIALIDAD */
@@ -200,7 +194,6 @@ header img{
 .tarjeta-texto{
     color: wheat;
     font-size: 15px;
-    margin: 0;
 }
 
 
@@ -322,6 +315,8 @@ footer li{
 
 
 @media (max-width: 576px){
+   
+
     /* HEADER */
 
     header{
@@ -391,25 +386,30 @@ footer li{
     .lo-mejor-de-los-vinos-patagonicos{
         position: absolute;
         width: 100%;
-        margin-left: -460px;
+        margin:0;
         flex-direction: column;
         text-align:left;
         color: wheat;
         filter: brightness(9);
     }
     .conocenos a{
+        visibility: hidden;
         padding: 0;
-        margin-left: -400px;
+        margin:0;
     }
 
      /* PAGINA CONTACTO */
+     .seccion-formulario{
+        justify-content: center;
+     }
      .contacto{
         flex-direction: column;
         align-items: center;
         height: auto;
     }
     .imagen-contacto{
-        margin: 10px 0px 0px 0px;
+        margin: 0px 10px 0px 0px;
+       
     }
     
     .form{
