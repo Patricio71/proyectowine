@@ -22,16 +22,22 @@ header img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: wheat;
+    color: wheat; 
 }
 .nav li{
     display: inline-block;
     font-family: monospace;
     font-size: 16px;
     margin: 10px;
-    color: goldenrod;
+    
 }
-.card{background-color: transparent;
+.nav li a{
+    text-decoration: none;
+    color: goldenrod;
+    
+}
+.card{
+    background-color: transparent;
     margin-left: 272px;
     margin-top: 80px;
     
@@ -56,8 +62,6 @@ header img{
     padding: 1px 60px 2px;
     opacity: 0.7;
     color: goldenrod;
-    
-
 }
 
 
@@ -87,98 +91,15 @@ header img{
     background-color: #333533;
     padding: 4px;
     margin: 7px;
-    text-align: center;
-
-        
-    
-               
+    text-align: center;               
 }
-
-
-
-/* ACA EMPIEZA GRID */
-
-/* .Variedades-Exclusivas{
-    color: white;
-    margin-top: 70px;
-    
-}
-#grid-gap {
-    
-    width: 100%;
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-        "caja1 caja1 caja1 caja3"
-        "caja2 caja2 caja2 caja3"
-     
-}
-.caja1 {
-    display: flex;
-    grid-gap: 10px;
-    grid-area: caja1;
- 
-}
-.caja2 {
-    display: flex;
-    justify-content: space-between;
-    grid-gap: 10px;
-    grid-area: caja2;
-    height: 300px;
-   
-}
-.caja3 {
-    grid-area: caja3;
-    width: 100px;
-    
-    
-    
-    
-}
-.descripcion{
-    background-color: rgb(8, 8, 8);
-    opacity: 0.4;
-    text-align: center;
-    color: wheat;
-    margin: 0;
-} */
-
 
 
 /* BANNER CONTAINER-FLUID */
 
-.cubo{
-    position: relative;
-    display: inline-block;
-    display: flex;
+.baner-fluid-medio{
     margin-top: 50px;
-    
 }
-.lo-mejor-de-los-vinos-patagonicos{
-    position: absolute;
-    top: 200px;
-    left: 550px;
-    font-size: 22px;
-   
-    color: wheat;
-    filter: brightness(9);
-}
-.conocenos{
-    position: absolute;
-    top: 250px;
-    left: 620px;
-    font-size: 22px;
-    
-    
-}
-/* .conocenos a{
-    text-decoration: none;
-    border: solid 1px;
-    padding: 1px 60px 2px;
-    color: goldenrod;   
-} */
 
 
 /* NUESTRA ESPECIALIDAD */
@@ -202,33 +123,24 @@ header img{
     margin-top:80px;
     color: whitesmoke
 }
-
 .patricio{
     background-color: #333533;
     margin: 1px 0px 0px 5px;
-    
-
 }
-
 .patricio-img{
     margin: 7px;
-   
 }
-
 .sobre-nosotros{
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
-
 .nombre-imagen{
     display: flex;
     text-align: center;
     color: wheat;
     align-items: center;
 }
-
 .tarjeta-texto{
     margin: 7px; 
 }
@@ -243,8 +155,6 @@ header img{
     margin-top: 90px;
     display: flex;
     justify-content: space-between;
-    
-
 }
 .contactanos{
     text-align: center;
@@ -286,6 +196,159 @@ header img{
 }
 
 
+
+/* BANNER BODEGA PARAISO */
+.copa-vino-tabla{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    margin-top: 70px;
+}
+.imagen-copa-vino-tabla{
+    width: 100%;
+}
+.texto-copa-vino-tabla{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.texto-copa-vino-tabla p{
+    color: whitesmoke;
+    font-size: 30px;
+    
+}
+.texto-copa-vino-tabla a{
+    text-decoration: none;
+    border: solid 2px;
+    color: goldenrod;
+    font-size: 22px;
+    margin-left: 150px;
+   
+}
+
+/* TIPOS */
+.tipos-de-vino{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+/* PROMOCIONES */
+.promociones{
+    position: relative;
+    
+}
+.promociones-enlace{
+    position: absolute;
+    top: 1%;
+    left: 5px;
+   
+}
+.promociones-enlace a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow: -6px -6px 6px #aaa;
+
+}
+
+/* TINTO */
+.tinto{
+    position: relative;
+}
+.tinto-enlace{
+    position: absolute;
+    top: 1%;
+    left: 5px;
+}
+.tinto-enlace a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-shadow: -6px -6px 6px whitesmoke;
+}
+
+/* BLANCO */
+.blanco{
+    position: relative;
+
+}
+.blanco-enlace{
+    position: absolute;
+    top: 1%;
+    left: 5px;;
+    
+}
+.blanco a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow: -6px -6px 6px whitesmoke;
+
+    
+}
+
+/* ROSADO */
+.rosado{
+    position: relative;
+
+}
+.rosado-enlace{
+    position: absolute;
+    top: 1%;
+    left: 5px;
+    
+}
+.rosado a{
+    text-decoration: none;
+    color:black;
+    font-size: 22px;
+    text-shadow: -6px -6px 6px whitesmoke;
+
+    
+}
+
+/* ESPUMANTE */
+.espumante{
+    position: relative;
+
+}
+.espumante-enlace{
+    position: absolute;
+    top: 1%;
+    left: 5px;
+    
+}
+.espumante a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 22px;
+    text-shadow: -6px -6px 6px whitesmoke;
+
+}
+
+/* ORGANICO */
+.organico{
+    position: relative;
+
+}
+.organico-enlace{
+    position: absolute;
+    top: 1%;
+    left: 5px;  
+}
+.organico a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-shadow: -6px -6px 6px whitesmoke;
+
+    
+}
+
+
+
+
+
 /* FOOTER */
 
 footer{
@@ -295,18 +358,14 @@ footer{
     justify-content: space-around;
     color: whitesmoke;
     height: 170px;
-    align-items: center;
-    
+    align-items: center; 
 }
 footer li{
     list-style-type: none;
     color: whitesmoke;
     text-decoration: none;
+}
 
-}
-.redes {
-    text-decoration: none;
-}
 
 
 
@@ -314,8 +373,7 @@ footer li{
  /* MOBILE */
 
 
-@media (max-width: 576px){
-   
+@media  (max-width: 576px){
 
     /* HEADER */
 
@@ -355,8 +413,6 @@ footer li{
         padding: 10px 0px 0px 0px;
     }
    
-  
-
     /* NOSOTROS */
     .sobre-nosotros{
         flex-direction: column;
@@ -376,28 +432,6 @@ footer li{
         flex-direction: column;
     }
 
-
-
-    /* BANNER CONTAINER FLUID */
-    .cubo{
-        width: 100%;
-        height: auto;
-    }
-    .lo-mejor-de-los-vinos-patagonicos{
-        position: absolute;
-        width: 100%;
-        margin:0;
-        flex-direction: column;
-        text-align:left;
-        color: wheat;
-        filter: brightness(9);
-    }
-    .conocenos a{
-        visibility: hidden;
-        padding: 0;
-        margin:0;
-    }
-
      /* PAGINA CONTACTO */
      .seccion-formulario{
         justify-content: center;
@@ -414,25 +448,32 @@ footer li{
     
     .form{
           margin: 20px 0px 0px 0px;
-
-
     }
 
+    /* TIPOS DE VINO */
+    .tipos-de-vino{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        cursor: pointer;
+    }
     /* FOOTER */
     footer{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        height: 60vh;
+        height: 20vh;
         margin-top:15px;
         width: 100%;
-        
+        text-align: center
     }
-    
-    .segui-navegando{
-      margin-bottom: 22px;
+    .redes{
+        text-align: center;
     }
 }
+   
+    
+    
 
 
 
@@ -445,6 +486,9 @@ footer li{
 
 
 
+
+
+ 
 /* 
     /* ACA COMIENZA EL GRID */
     /* .Variedades-Exclusivas{
