@@ -163,9 +163,6 @@ header img{
 .form{
     display: flex;
     flex-direction: column;
-
-
-    
 }
 .form input{
     border: solid 2px whitesmoke;
@@ -227,10 +224,14 @@ header img{
 }
 
 /* TIPOS */
+.variedades{
+    margin-top:80px;
+    color: whitesmoke
+}
 .tipos-de-vino{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 /* PROMOCIONES */
 .promociones{
