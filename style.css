@@ -235,6 +235,7 @@ header img{
 /* PROMOCIONES */
 .promociones{
     position: relative;
+    border: solid 1px #333533 ;
     
 }
 .promociones-enlace{
@@ -254,6 +255,7 @@ header img{
 /* TINTO */
 .tinto{
     position: relative;
+    border: solid 1px #333533 ;
 }
 .tinto-enlace{
     position: absolute;
@@ -270,6 +272,7 @@ header img{
 /* BLANCO */
 .blanco{
     position: relative;
+    border: solid 1px #333533 ;
 
 }
 .blanco-enlace{
@@ -290,6 +293,7 @@ header img{
 /* ROSADO */
 .rosado{
     position: relative;
+    border: solid 1px #333533 ;
 
 }
 .rosado-enlace{
@@ -310,6 +314,7 @@ header img{
 /* ESPUMANTE */
 .espumante{
     position: relative;
+    border: solid 1px #333533 ;
 
 }
 .espumante-enlace{
@@ -329,6 +334,7 @@ header img{
 /* ORGANICO */
 .organico{
     position: relative;
+    border: solid 1px #333533 ;
 
 }
 .organico-enlace{
@@ -352,13 +358,14 @@ header img{
 /* FOOTER */
 
 footer{
+    
     margin-top: 20px;
     background-color: #1b263b;
     display: flex;
     justify-content: space-around;
     color: whitesmoke;
-    height: 170px;
-    align-items: center; 
+    height: 190px;
+    
 }
 footer li{
     list-style-type: none;
