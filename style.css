@@ -385,13 +385,18 @@ footer li{
 
     header{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100vw;
+        
+    }
+    .barra-nav{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .titulo{
-        margin-left: 17px;
+        visibility: hidden;           /*oculte el titulo */
     }
-    
     .card{
        visibility: hidden;
        margin: 0;
