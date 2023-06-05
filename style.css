@@ -146,15 +146,13 @@ header img{
 }
 
 /* CONTACTO */
-
 .seccion-formulario{
     background-color: #333533;
-    
 }
 .contacto{
-    margin-top: 90px;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 .contactanos{
     text-align: center;
@@ -163,6 +161,7 @@ header img{
 .form{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .form input{
     border: solid 2px whitesmoke;
@@ -381,14 +380,16 @@ footer li{
  /* MOBILE */
 
 
-@media  (max-width: 576px){
+@media (min-width: 400px)  and (max-width: 576px){
+
+
 
     /* HEADER */
 
     header{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 100vw;
     }
     .titulo{
         margin-left: 17px;
@@ -449,10 +450,7 @@ footer li{
         align-items: center;
         height: auto;
     }
-    .imagen-contacto{
-        margin: 0px 10px 0px 0px;
-       
-    }
+   
     
     .form{
           margin: 20px 0px 0px 0px;
@@ -470,18 +468,17 @@ footer li{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        height: 20vh;
+        height: 40vh;
         margin-top:15px;
         width: 100%;
-        text-align: center
+       
     }
-    .redes{
-        text-align: center;
-    }
+    
+   
 }
    
+
     
-    
 
 
 
@@ -496,43 +493,6 @@ footer li{
 
 
 
- 
-/* 
-    /* ACA COMIENZA EL GRID */
-    /* .Variedades-Exclusivas{
-        text-align: center;
-    }
-
-
-    .caja1 {
-        display: flex;
-        grid-area: caja1;
-        flex-direction: column;
-        padding: 0px;
-        margin: 0px;
-        align-items: center;
-    }
-    
-    .caja2{
-        flex-direction: column;
-        align-items: center;
-    }
-    .caja2 img{
-        width: 301px;
-        padding: 10px;
-    }
-    .segunda-imagen{
-        visibility: hidden;
-    }
-    
-    .caja3{
-        visibility: hidden;
-    }
-    .descripcion{
-        background-color: none;
-        margin: 0;
-        text-align: center;
-    } */ 
 
 
 
