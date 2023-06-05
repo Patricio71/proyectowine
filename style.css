@@ -1,193 +1,210 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'iceberg';
 }
-body{
+
+body {
     background-color: rgb(26, 26, 26);
 }
 
 /* HEADER */
-
-header img{
-    position: absolute;
-}
-.titulo{
-    font-size: 30px;
+header h1{
+    text-align: center;
     color: goldenrod;
-    margin: 0;
-}
-.barra-nav{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: wheat; 
-}
-.nav li{
-    display: inline-block;
-    font-family: monospace;
-    font-size: 16px;
-    margin: 10px;
+    filter: brightness(1.1);
     
 }
-.nav li a{
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    color: goldenrod;
+    filter: brightness(1.1);
+
+}
+.nav a{
+    font-size: 22px;
     text-decoration: none;
     color: goldenrod;
-    
+    filter: brightness(1.1);
 }
-.card{
-    background-color: transparent;
-    margin-left: 272px;
-    margin-top: 80px;
-    
+/* TARJETA HEADER */
+
+.imagen-header{
+    position: absolute;
+    width: 100%;
+}
+.card-header{
+    top: 60px;
+    left: 50px;
+    position: relative;
+    width: 300px;
+    height: 280px;
+    opacity: 0.9;
 }
 .card-titulo{
-    visibility: visible;
-    font-size: 30px;
+    font-weight: 600px;
+    text-align: center;
     color: goldenrod;
-    
+    filter: brightness(1.2);
 }
-.card-text{
-    visibility: visible;
-    font-size: 20px;
+.card-texto{
     color: whitesmoke;
-    
+    filter: brightness(9);
+    text-align: center;
 }
 .ver-mas{
-    visibility: visible;
-    text-align: center;
     text-decoration: none;
-    border: solid 2px;
-    padding: 1px 60px 2px;
-    opacity: 0.7;
+    margin-left: 90px;
+    border: solid 1px goldenrod;
+    filter: brightness(1.2);
     color: goldenrod;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px ;
 }
-
 
 /* PADDING AL CONTAINER */
 
-.container{ 
+.container {
     padding: 0;
-    
+
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0;
 }
 
 
 /* LO MAS VENDIDO */
 
-.Lo-mas-vendido{
+.Lo-mas-vendido {
     color: white;
-    margin-top: 190px;
+    margin-top: 600px;
 }
-.grupo-tarjetas{
+
+.grupo-tarjetas {
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
-.tarjeta{
+
+.tarjeta {
     background-color: #333533;
     padding: 4px;
     margin: 7px;
-    text-align: center;               
+    text-align: center;
 }
 
 
 /* BANNER CONTAINER-FLUID */
 
-.baner-fluid-medio{
+.baner-fluid-medio {
     margin-top: 50px;
 }
 
 
 /* NUESTRA ESPECIALIDAD */
-.nuestra-especialidad{
+.nuestra-especialidad {
     color: whitesmoke;
     font-size: 30px;
-    text-align: center;  
+    text-align: center;
 }
-.tarjeta-biografica{
-    display: flex; 
+
+.tarjeta-biografica {
+    display: flex;
     margin-top: 70px;
 }
-.tarjeta-texto{
+
+.tarjeta-texto {
     color: wheat;
     font-size: 15px;
 }
 
 
 /* NOSOTROS */
-.nosotros{
-    margin-top:80px;
+.nosotros {
+    margin-top: 80px;
     color: whitesmoke
 }
-.patricio{
+
+.patricio {
     background-color: #333533;
     margin: 1px 0px 0px 5px;
 }
-.patricio-img{
+
+.patricio-img {
     margin: 7px;
 }
-.sobre-nosotros{
+
+.sobre-nosotros {
     display: flex;
     margin-top: 20px;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
-.nombre-imagen{
+
+.nombre-imagen {
     display: flex;
     text-align: center;
     color: wheat;
     align-items: center;
 }
-.tarjeta-texto{
-    margin: 7px; 
+
+.tarjeta-texto {
+    margin: 7px;
 }
 
 /* CONTACTO */
-.seccion-formulario{
+.seccion-formulario {
     background-color: #333533;
 }
-.contacto{
+
+.contacto {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.contactanos{
+
+.contactanos {
     text-align: center;
     color: whitesmoke;
 }
-.form{
+
+.form {
     display: flex;
     flex-direction: column;
     width: 50%;
 
 }
-.form input{
+
+.form input {
     border: solid 2px whitesmoke;
     background-color: #333533;
     margin: 10px 0px 0px 0px;
 }
-.form textarea{
+
+.form textarea {
     border: solid 2px whitesmoke;
     margin: 10px 0px 0px 0px;
 }
-.form button{
+
+.form button {
     background-color: #333533;
-    border:solid 2px goldenrod;
+    border: solid 2px goldenrod;
     color: goldenrod;
     margin: 10px 0px 0px 0px
 }
-#nombre{
+
+#nombre {
     color: whitesmoke;
     background-color: #333533;
 }
-#mail{
+
+#mail {
     color: whitesmoke;
     background-color: #333533;
 }
-#comentario{
+
+#comentario {
     color: whitesmoke;
     background-color: #333533;
 }
@@ -195,57 +212,65 @@ header img{
 
 
 /* BANNER BODEGA PARAISO */
-.copa-vino-tabla{
+.copa-vino-tabla {
     position: relative;
     display: inline-block;
     display: flex;
     margin-top: 70px;
 }
-.imagen-copa-vino-tabla{
+
+.imagen-copa-vino-tabla {
     width: 100%;
 }
-.texto-copa-vino-tabla{
+
+.texto-copa-vino-tabla {
     position: absolute;
     margin-top: 100px;
     margin-left: 100px;
 }
-.texto-copa-vino-tabla p{
+
+.texto-copa-vino-tabla p {
     color: whitesmoke;
     font-size: 30px;
-    
+
 }
-.texto-copa-vino-tabla a{
+
+.texto-copa-vino-tabla a {
     text-decoration: none;
     border: solid 2px;
     color: goldenrod;
     font-size: 22px;
     margin-left: 150px;
-   
+
 }
 
 /* TIPOS */
-.variedades{
-    margin-top:80px;
+.variedades {
+    margin-top: 80px;
     color: whitesmoke
 }
-.tipos-de-vino{
+
+.tipos-de-vino {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
+
 /* PROMOCIONES */
-.promociones{
+.promociones {
     position: relative;
-    border: solid 1px #333533 ;
-    
+    border: solid 1px #333533;
+
 }
-.promociones-enlace{
+
+.promociones-enlace {
     position: absolute;
     top: 1%;
     left: 5px;
-   
+
 }
-.promociones-enlace a{
+
+.promociones-enlace a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 22px;
@@ -254,16 +279,18 @@ header img{
 }
 
 /* TINTO */
-.tinto{
+.tinto {
     position: relative;
-    border: solid 1px #333533 ;
+    border: solid 1px #333533;
 }
-.tinto-enlace{
+
+.tinto-enlace {
     position: absolute;
     top: 1%;
     left: 5px;
 }
-.tinto-enlace a{
+
+.tinto-enlace a {
     text-decoration: none;
     color: black;
     font-size: 25px;
@@ -271,60 +298,67 @@ header img{
 }
 
 /* BLANCO */
-.blanco{
+.blanco {
     position: relative;
-    border: solid 1px #333533 ;
+    border: solid 1px #333533;
 
 }
-.blanco-enlace{
+
+.blanco-enlace {
     position: absolute;
     top: 1%;
-    left: 5px;;
-    
+    left: 5px;
+    ;
+
 }
-.blanco a{
+
+.blanco a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 22px;
     text-shadow: -6px -6px 6px whitesmoke;
 
-    
+
 }
 
 /* ROSADO */
-.rosado{
+.rosado {
     position: relative;
-    border: solid 1px #333533 ;
+    border: solid 1px #333533;
 
 }
-.rosado-enlace{
+
+.rosado-enlace {
     position: absolute;
     top: 1%;
     left: 5px;
-    
+
 }
-.rosado a{
+
+.rosado a {
     text-decoration: none;
-    color:black;
+    color: black;
     font-size: 22px;
     text-shadow: -6px -6px 6px whitesmoke;
 
-    
+
 }
 
 /* ESPUMANTE */
-.espumante{
+.espumante {
     position: relative;
-    border: solid 1px #333533 ;
+    border: solid 1px #333533;
 
 }
-.espumante-enlace{
+
+.espumante-enlace {
     position: absolute;
     top: 1%;
     left: 5px;
-    
+
 }
-.espumante a{
+
+.espumante a {
     text-decoration: none;
     color: whitesmoke;
     font-size: 22px;
@@ -333,38 +367,41 @@ header img{
 }
 
 /* ORGANICO */
-.organico{
+.organico {
     position: relative;
-    border: solid 1px #333533 ;
+    border: solid 1px #333533;
 
 }
-.organico-enlace{
+
+.organico-enlace {
     position: absolute;
     top: 1%;
-    left: 5px;  
+    left: 5px;
 }
-.organico a{
+
+.organico a {
     text-decoration: none;
     color: black;
     font-size: 22px;
     text-shadow: -6px -6px 6px whitesmoke;
 
-    
+
 }
 
 /* FOOTER */
 
-footer{
-    
+footer {
+
     margin-top: 20px;
     background-color: #1b263b;
     display: flex;
     justify-content: space-around;
     color: whitesmoke;
     height: 190px;
-    
+
 }
-footer li{
+
+footer li {
     list-style-type: none;
     color: whitesmoke;
     text-decoration: none;
@@ -373,144 +410,124 @@ footer li{
 
 
 
+/* MOBILE */
 
- /* MOBILE */
 
-
-@media (min-width: 400px)  and (max-width: 576px){
+@media (min-width: 400px) and (max-width: 576px) {
 
 
 
     /* HEADER */
 
-    header{
+    header {
         display: flex;
-        flex-direction: column-reverse;
-        width: 100vw;
+        flex-direction: column;
         
     }
-    .barra-nav{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    .nav a{
+        font-size: 15px;
+
     }
-    .titulo{
-        visibility: hidden;           /*oculte el titulo */
-    }
-    .card{
-       visibility: hidden;
-       margin: 0;
-         
-    }
+   .card-header{
+    visibility: hidden;
+   }
+  
+
+    
+
     /* GRUPO PRIMERAS TARJETAS */
 
-    .Lo-mas-vendido{
+    .Lo-mas-vendido {
         color: white;
-        margin-top: 50px;
+        margin-top: 570px;
         text-align: center;
     }
-    
-    .grupo-tarjetas{
+
+    .grupo-tarjetas {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 20px;
         margin: 0px;
     }
-    .tarjeta{
-        margin: 4px 0px 0px 0px;
+
+    .tarjeta {
+        margin: 17px 0px 0px 0px;
     }
-    .tarjeta img{
+
+    .tarjeta img {
         padding: 10px 0px 0px 0px;
     }
-   
+
     /* NOSOTROS */
-    .sobre-nosotros{
+    .sobre-nosotros {
         flex-direction: column;
         align-items: center;
 
     }
-    .nosotros{
+
+    .nosotros {
         text-align: center;
     }
-    .patricio{
-       padding: 0;
-       margin: 10px 0px 0px 0px;
-        
+
+    .patricio {
+        padding: 0;
+        margin: 10px 0px 0px 0px;
+
     }
 
-    .tarjeta-biografica{
+    .tarjeta-biografica {
         flex-direction: column;
     }
 
-     /* PAGINA CONTACTO */
-     .seccion-formulario{
+    
+    /* PAGINA CONTACTO */
+    .seccion-formulario {
         justify-content: center;
 
-     }
-     .imagen-contacto{
+    }
+
+    .imagen-contacto {
         width: 100%;
-     }
-     .contacto{
+    }
+
+    .contacto {
         flex-direction: column;
         align-items: center;
         height: auto;
     }
-   
-    
-    .form{
-          margin: 20px 0px 0px 0px;
-          width: 100%;
+
+
+    .form {
+        margin: 20px 0px 0px 0px;
+        width: 100%;
     }
 
     /* TIPOS DE VINO */
-    .tipos-de-vino{
+    .variedades{
+        text-align: center;
+    }
+    .tipos-de-vino {
         flex-wrap: wrap;
         width: 100%;
         justify-content: space-around;
         cursor: pointer;
     }
+    
+
+   
+   
+
     /* FOOTER */
-    footer{
+    footer {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         align-items: center;
         height: 40vh;
-        margin-top:15px;
+        margin-top: 30px;
         width: 100%;
-       
+
     }
-    
-   
+
+
 }
-   
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-

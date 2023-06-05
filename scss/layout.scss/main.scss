@@ -1,0 +1,293 @@
+// LO MAS VENDIDO
+.Lo-mas-vendido {
+    color: white;
+    margin-top: 600px;
+}
+
+.grupo-tarjetas {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    .tarjeta {
+        background-color: #333533;
+        padding: 4px;
+        margin: 7px;
+        text-align: center;
+    }
+}
+
+// BANNER FLUID MEDIO
+.baner-fluid-medio {
+    margin-top: 50px;
+}
+
+// NUESTRA ESPECIALIDAD
+.nuestra-especialidad {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+
+// BIOGRAFIA
+.tarjeta-biografica {
+    display: flex;
+    margin-top: 70px;
+
+    .tarjeta-texto {
+        color: wheat;
+        font-size: 15px;
+    }
+}
+
+// NOSOTROS
+.nosotros {
+    margin-top: 80px;
+    color: whitesmoke
+}
+
+.sobre-nosotros {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+    .patricio {
+        background-color: #333533;
+        margin: 1px 0px 0px 5px;
+
+        .tarjeta-texto {
+            margin: 7px;
+        }
+
+        .nombre-imagen {
+            display: flex;
+            text-align: center;
+            color: wheat;
+            align-items: center;
+
+            .patricio-img {
+                margin: 7px;
+            }
+        }
+    }
+
+
+}
+
+.seccion-formulario {
+    background-color: #333533;
+
+    .contacto {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        .form input {
+            border: solid 2px whitesmoke;
+            background-color: #333533;
+            margin: 10px 0px 0px 0px;
+        }
+
+        .form textarea {
+            border: solid 2px whitesmoke;
+            margin: 10px 0px 0px 0px;
+        }
+
+        .form button {
+            background-color: #333533;
+            border: solid 2px goldenrod;
+            color: goldenrod;
+            margin: 10px 0px 0px 0px
+        }
+
+        #nombre {
+            color: whitesmoke;
+            background-color: #333533;
+        }
+
+        #mail {
+            color: whitesmoke;
+            background-color: #333533;
+        }
+
+        #comentario {
+            color: whitesmoke;
+            background-color: #333533;
+        }
+    }
+}
+
+// BANNER BODEGA PARAISO
+.copa-vino-tabla {
+    position: relative;
+    display: inline-block;
+    display: flex;
+    margin-top: 70px;
+
+    .imagen-copa-vino-tabla {
+        width: 100%;
+    }
+
+    .texto-copa-vino-tabla {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 100px;
+
+        p {
+            color: whitesmoke;
+            font-size: 30px;
+
+        }
+
+        a {
+            text-decoration: none;
+            border: solid 2px;
+            color: goldenrod;
+            font-size: 22px;
+            margin-left: 150px;
+
+        }
+    }
+}
+
+// TIPOS
+// PROMOCIONES
+.variedades {
+    margin-top: 80px;
+    color: whitesmoke
+}
+
+.tipos-de-vino {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .promociones {
+        position: relative;
+        border: solid 1px #333533;
+
+    }
+
+    .promociones-enlace a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 22px;
+        text-shadow: -6px -6px 6px #aaa;
+
+    }
+}
+
+// TINTO
+.tinto {
+    position: relative;
+    border: solid 1px #333533;
+}
+
+.tinto-enlace {
+    position: absolute;
+    top: 1%;
+    left: 5px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        text-shadow: -6px -6px 6px whitesmoke;
+    }
+}
+
+// BLANCO
+.blanco {
+    position: relative;
+    border: solid 1px #333533;
+
+}
+
+.blanco-enlace {
+    position: absolute;
+    top: 1%;
+    left: 5px;
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 22px;
+        text-shadow: -6px -6px 6px whitesmoke;
+
+
+    }
+
+}
+
+// ROSADO
+.rosado {
+    position: relative;
+    border: solid 1px #333533;
+
+}
+
+.rosado-enlace {
+    position: absolute;
+    top: 1%;
+    left: 5px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        text-shadow: -6px -6px 6px whitesmoke;
+
+
+    }
+}
+
+// ESPUMANTE
+.espumante {
+    position: relative;
+    border: solid 1px #333533;
+
+}
+
+.espumante-enlace {
+    position: absolute;
+    top: 1%;
+    left: 5px;
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 22px;
+        text-shadow: -6px -6px 6px whitesmoke;
+
+    }
+}
+
+// ORGANICO
+.organico {
+    position: relative;
+    border: solid 1px #333533;
+
+}
+
+.organico-enlace {
+    position: absolute;
+    top: 1%;
+    left: 5px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 22px;
+        text-shadow: -6px -6px 6px whitesmoke;
+
+
+    }
+}
+
+// FOOTER
