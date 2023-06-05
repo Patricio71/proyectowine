@@ -161,7 +161,8 @@ header img{
 .form{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    width: 50%;
+
 }
 .form input{
     border: solid 2px whitesmoke;
@@ -351,10 +352,6 @@ header img{
     
 }
 
-
-
-
-
 /* FOOTER */
 
 footer{
@@ -444,6 +441,10 @@ footer li{
      /* PAGINA CONTACTO */
      .seccion-formulario{
         justify-content: center;
+
+     }
+     .imagen-contacto{
+        width: 100%;
      }
      .contacto{
         flex-direction: column;
@@ -454,6 +455,7 @@ footer li{
     
     .form{
           margin: 20px 0px 0px 0px;
+          width: 100%;
     }
 
     /* TIPOS DE VINO */
