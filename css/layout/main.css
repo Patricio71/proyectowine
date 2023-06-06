@@ -1,56 +1,3 @@
-header h1 {
-  text-align: center;
-  color: goldenrod;
-  filter: brightness(1.1);
-}
-
-.nav {
-  display: flex;
-  justify-content: space-evenly;
-  color: goldenrod;
-  filter: brightness(1.1);
-}
-.nav a {
-  font-size: 22px;
-  text-decoration: none;
-  color: goldenrod;
-  filter: brightness(1.1);
-}
-
-.imagen-header {
-  position: absolute;
-  width: 100%;
-}
-
-.card-header {
-  top: 60px;
-  left: 50px;
-  position: relative;
-  width: 300px;
-  height: 280px;
-  opacity: 0.9;
-}
-.card-header .card-titulo {
-  font-weight: 600px;
-  text-align: center;
-  color: goldenrod;
-  filter: brightness(1.2);
-}
-.card-header .card-texto {
-  color: whitesmoke;
-  filter: brightness(9);
-  text-align: center;
-}
-.card-header .ver-mas {
-  text-decoration: none;
-  margin-left: 90px;
-  border: solid 1px goldenrod;
-  filter: brightness(1.2);
-  color: goldenrod;
-  font-size: 20px;
-  padding: 0px 20px 0px 20px;
-}
-
 body {
   background-color: rgb(26, 26, 26);
 }
@@ -302,18 +249,4 @@ body {
   text-shadow: -6px -6px 6px whitesmoke;
 }
 
-footer {
-  margin-top: 20px;
-  background-color: #1b263b;
-  display: flex;
-  justify-content: space-around;
-  color: whitesmoke;
-  height: 190px;
-}
-footer li {
-  list-style-type: none;
-  color: whitesmoke;
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=main.css.map */
