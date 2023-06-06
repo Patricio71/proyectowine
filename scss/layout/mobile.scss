@@ -1,0 +1,118 @@
+@media (min-width: 400px) and (max-width: 576px) {
+
+
+
+    /* HEADER */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .nav a{
+        font-size: 15px;
+
+    }
+   .card-header{
+    visibility: hidden;
+   }
+  
+
+    
+
+    /* GRUPO PRIMERAS TARJETAS */
+
+    .Lo-mas-vendido {
+        color: white;
+        margin-top: 570px;
+        text-align: center;
+    }
+
+    .grupo-tarjetas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .tarjeta {
+        margin: 17px 0px 0px 0px;
+    }
+
+    .tarjeta img {
+        padding: 10px 0px 0px 0px;
+    }
+
+    /* NOSOTROS */
+    .sobre-nosotros {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .nosotros {
+        text-align: center;
+    }
+
+    .patricio {
+        padding: 0;
+        margin: 10px 0px 0px 0px;
+
+    }
+
+    .tarjeta-biografica {
+        flex-direction: column;
+    }
+
+    
+    /* PAGINA CONTACTO */
+    .seccion-formulario {
+        justify-content: center;
+
+    }
+
+    .imagen-contacto {
+        width: 100%;
+    }
+
+    .contacto {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+
+    .form {
+        margin: 20px 0px 0px 0px;
+        width: 100%;
+    }
+
+    /* TIPOS DE VINO */
+    .variedades{
+        text-align: center;
+    }
+    .tipos-de-vino {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-around;
+        cursor: pointer;
+    }
+    
+
+   
+   
+
+    /* FOOTER */
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        height: 40vh;
+        margin-top: 30px;
+        width: 100%;
+
+    }
+
+
+}
