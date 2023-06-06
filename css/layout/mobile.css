@@ -47,9 +47,6 @@
   .seccion-formulario {
     justify-content: center;
   }
-  .imagen-contacto {
-    width: 100%;
-  }
   .contacto {
     flex-direction: column;
     align-items: center;
@@ -66,7 +63,7 @@
   .tipos-de-vino {
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     cursor: pointer;
   }
   /* FOOTER */
