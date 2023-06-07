@@ -308,19 +308,26 @@ footer li {
 
 @media (min-width: 400px) and (max-width: 576px) {
   /* HEADER */
+  body {
+    background-color: #0d1b2a;
+  }
   header {
     display: flex;
     flex-direction: column;
   }
+  header h1 {
+    color: #eaf4f4;
+  }
   .nav a {
     font-size: 15px;
+    color: #eaf4f4;
   }
   .card-header {
     visibility: hidden;
   }
   /* GRUPO PRIMERAS TARJETAS */
   .Lo-mas-vendido {
-    color: white;
+    color: #eaf4f4;
     margin-top: 570px;
     text-align: center;
   }
@@ -330,26 +337,41 @@ footer li {
     align-items: center;
     margin: 0px;
   }
-  .tarjeta {
-    margin: 17px 0px 0px 0px;
-  }
-  .tarjeta img {
+  .grupo-tarjetas img {
     padding: 10px 0px 0px 0px;
+  }
+  .grupo-tarjetas .tarjeta {
+    margin: 17px 0px 0px 0px;
+    background-color: #eaf4f4;
+  }
+  .grupo-tarjetas .tarjeta .tarjeta-texto {
+    color: #0d1b2a;
   }
   /* NOSOTROS */
   .sobre-nosotros {
     flex-direction: column;
     align-items: center;
+    color: #0d1b2a;
+  }
+  .sobre-nosotros .patricio {
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+    background-color: #eaf4f4;
+  }
+  .sobre-nosotros .patricio .nombre-imagen {
+    color: #0d1b2a;
+  }
+  .sobre-nosotros .patricio .tarjeta-texto {
+    color: #0d1b2a;
   }
   .nosotros {
     text-align: center;
   }
-  .patricio {
-    padding: 0;
-    margin: 10px 0px 0px 0px;
-  }
   .tarjeta-biografica {
     flex-direction: column;
+  }
+  .nuestra-especialidad {
+    color: #eaf4f4;
   }
   /* PAGINA CONTACTO */
   .seccion-formulario {
@@ -359,6 +381,7 @@ footer li {
     flex-direction: column;
     align-items: center;
     height: auto;
+    color: #0d1b2a;
   }
   .form {
     margin: 20px 0px 0px 0px;
