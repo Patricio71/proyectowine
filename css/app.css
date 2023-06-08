@@ -327,6 +327,9 @@ footer li {
 }
 
 @media (min-width: 400px) and (max-width: 576px) {
+  .container-fluid {
+    padding: 0;
+  }
   /* HEADER */
   body {
     background-color: #0d1b2a;
@@ -400,9 +403,13 @@ footer li {
   .tarjeta-biografica {
     flex-direction: column;
   }
+  .tarjeta-biografica .tarjeta-texto {
+    color: #eaf4f4;
+    font-weight: 400;
+  }
   .nuestra-especialidad {
     font-family: "Raleway", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     color: #eaf4f4;
   }
   /* PAGINA CONTACTO */
@@ -441,10 +448,7 @@ footer li {
   footer {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 40vh;
+    height: 50vh;
     margin-top: 30px;
     width: 100%;
     font-family: "Raleway", sans-serif;
