@@ -4,6 +4,8 @@ body {
 }
 
 .Lo-mas-vendido {
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 500;
     color: white;
     margin-top: 600px;
 }
@@ -19,6 +21,9 @@ body {
         margin: 7px;
         text-align: center;
         color: wheat;
+        .tarjeta-texto{
+            font-weight: 600;
+        }
     }
 }
 
@@ -30,6 +35,8 @@ body {
 // NUESTRA ESPECIALIDAD
 .nuestra-especialidad {
     color: whitesmoke;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 400;
     font-size: 30px;
     text-align: center;
 }
@@ -42,13 +49,19 @@ body {
     .tarjeta-texto {
         color: wheat;
         font-size: 15px;
+        font-weight: 500;
+
     }
 }
 
 // NOSOTROS
 .nosotros {
     margin-top: 80px;
-    color: whitesmoke
+    color: whitesmoke;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 600;
+
+
 }
 
 .sobre-nosotros {
@@ -117,6 +130,8 @@ body {
         .contactanos {
             text-align: center;
             color: whitesmoke;
+            font-family: 'Tilt Prism', cursive;
+            font-weight: 400;
         }
 
         #nombre {
@@ -174,7 +189,9 @@ body {
 
 .variedades {
     margin-top: 80px;
-    color: whitesmoke
+    color: whitesmoke;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 400;
 }
 
 .tipos-de-vino {

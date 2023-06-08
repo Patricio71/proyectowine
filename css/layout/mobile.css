@@ -9,10 +9,14 @@
   }
   header h1 {
     color: #eaf4f4;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
   }
   .nav a {
     font-size: 15px;
     color: #eaf4f4;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
   }
   .card-header {
     visibility: hidden;
@@ -22,6 +26,7 @@
     color: #eaf4f4;
     margin-top: 570px;
     text-align: center;
+    font-family: "Raleway", sans-serif;
   }
   .grupo-tarjetas {
     display: flex;
@@ -38,6 +43,8 @@
   }
   .grupo-tarjetas .tarjeta .tarjeta-texto {
     color: #0d1b2a;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
   }
   /* NOSOTROS */
   .sobre-nosotros {
@@ -55,14 +62,19 @@
   }
   .sobre-nosotros .patricio .tarjeta-texto {
     color: #0d1b2a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
   }
   .nosotros {
     text-align: center;
+    font-family: "Raleway", sans-serif;
   }
   .tarjeta-biografica {
     flex-direction: column;
   }
   .nuestra-especialidad {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
     color: #eaf4f4;
   }
   /* PAGINA CONTACTO */
@@ -74,30 +86,41 @@
     align-items: center;
     height: auto;
     color: #0d1b2a;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
   }
   .form {
     margin: 20px 0px 0px 0px;
     width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
   }
   /* TIPOS DE VINO */
   .variedades {
     text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
   }
   .tipos-de-vino {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
   }
   /* FOOTER */
   footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     height: 40vh;
     margin-top: 30px;
     width: 100%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
   }
 }
 

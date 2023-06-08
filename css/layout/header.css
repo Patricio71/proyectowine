@@ -2,13 +2,18 @@ header h1 {
   text-align: center;
   color: goldenrod;
   filter: brightness(1.1);
+  font-family: "Tilt Prism", cursive;
+  font-weight: 600;
 }
 
 .nav {
   display: flex;
   justify-content: space-evenly;
   color: goldenrod;
+  margin-top: 30px;
   filter: brightness(1.1);
+  font-family: "Tilt Prism", cursive;
+  font-weight: 400;
 }
 .nav a {
   font-size: 22px;
@@ -31,13 +36,14 @@ header h1 {
   opacity: 0.9;
 }
 .card-header .card-titulo {
-  font-weight: 600px;
+  font-weight: 600;
   text-align: center;
   color: goldenrod;
   filter: brightness(1.2);
 }
 .card-header .card-texto {
   color: whitesmoke;
+  font-weight: 500;
   filter: brightness(9);
   text-align: center;
 }

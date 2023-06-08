@@ -2,60 +2,70 @@ header h1 {
     text-align: center;
     color: goldenrod;
     filter: brightness(1.1);
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 600;
+
+
+
+
+    
 }
 
 .nav {
     display: flex;
     justify-content: space-evenly;
     color: goldenrod;
+    margin-top: 30px;
     filter: brightness(1.1);
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 400;
 
     a {
-
         font-size: 22px;
         text-decoration: none;
         color: goldenrod;
         filter: brightness(1.1);
+        
+       }
+    }
+
+
+    .imagen-header {
+        position: absolute;
+        width: 100%;
+
 
     }
 
-}
+    .card-header {
+        top: 60px;
+        left: 50px;
+        position: relative;
+        width: 300px;
+        height: 280px;
+        opacity: 0.9;
 
-.imagen-header {
-    position: absolute;
-    width: 100%;
+        .card-titulo {
+            font-weight: 600;
+            text-align: center;
+            color: goldenrod;
+            filter: brightness(1.2);
+        }
 
+        .card-texto {
+            color: whitesmoke;
+            font-weight: 500;
+            filter: brightness(9);
+            text-align: center;
+        }
 
-}
-
-.card-header {
-    top: 60px;
-    left: 50px;
-    position: relative;
-    width: 300px;
-    height: 280px;
-    opacity: 0.9;
-
-    .card-titulo {
-        font-weight: 600px;
-        text-align: center;
-        color: goldenrod;
-        filter: brightness(1.2);
+        .ver-mas {
+            text-decoration: none;
+            margin-left: 90px;
+            border: solid 1px goldenrod;
+            filter: brightness(1.2);
+            color: goldenrod;
+            font-size: 20px;
+            padding: 0px 20px 0px 20px;
+        }
     }
-
-    .card-texto {
-        color: whitesmoke;
-        filter: brightness(9);
-        text-align: center;
-    }
-
-    .ver-mas {
-        text-decoration: none;
-        margin-left: 90px;
-        border: solid 1px goldenrod;
-        filter: brightness(1.2);
-        color: goldenrod;
-        font-size: 20px;
-        padding: 0px 20px 0px 20px;
-    }
-}
